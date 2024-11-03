@@ -20,7 +20,7 @@ const Refform = () => {
             setError('Password is less then 6. Your password should be grater than 6')
         }
         else{
-            setError('')
+            setError("")
              console.log(passRef.current.value)
         }
 
